@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tebet Echo Park.</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Tebet Echo Park</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          106.8527596,-6.2371578,0
+          106.8527596,-6.2370965,0
+          106.8528454,-6.2369978,0
+          106.8529554,-6.2369978,0
+          106.8530224,-6.2370325,0
+          106.8530787,-6.2370831,0
+          106.8530848,-6.2371355,0
+          106.8530747,-6.2371821,0
+          106.8530546,-6.2372221,0
+          106.8530425,-6.2372328,0
+          106.8530097,-6.2372528,0
+          106.8529594,-6.2372628,0
+          106.8529352,-6.2372628,0
+          106.8529004,-6.2372655,0
+          106.8528749,-6.2372555,0
+          106.8528333,-6.2372335,0
+          106.8528119,-6.2372208,0
+          106.8528018,-6.2372068,0
+          106.8527877,-6.2371961,0
+          106.8527723,-6.2371788,0
+          106.8527589,-6.2371628,0
+          106.8527777,-6.2371665,0
+          106.8527509,-6.2371185,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
